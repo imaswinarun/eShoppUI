@@ -1,0 +1,42 @@
+name: gmaps_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+     - family: Montserrat
+       fonts:
+         - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+         - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf                         
+         - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+     - family: Alata
+       fonts:
+         - asset: assets/fonts/Alata/Alata-Regular.ttf
+    
+
